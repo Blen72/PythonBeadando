@@ -185,7 +185,7 @@ class Enemy(Entity):
         super().draw()
 
 
-# basic creen class
+# basic screen class
 class Screen:
     def __init__(self, ww, wh):
         self.ww = ww
@@ -398,7 +398,7 @@ player = None  # Entity(PLAYER_IMG, 1, 1)
 mainmenuScreen = ScreenMainMenu()
 keybindsScreen = ScreenKeybinds()
 gameoverScreen = None
-currentScreen = mainmenuScreen
+currentScreen = ScreenGG()#mainmenuScreen
 currentScreen.init()
 
 spaced = False
