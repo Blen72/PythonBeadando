@@ -1,0 +1,12 @@
+Miután elindíottuk a programot a főmenüben kiválaszthatjuk a nehézséget.
+A Keybinds-ra kattintva láthatjuk melyik billentyű mit csinál.
+    W/A/S/D: player mozgatása
+    Space+W/A/S/D: 2 blokkal mozgás átugrással
+    P: játék szüneteltetése
+    ESC: kilépés
+Player: sárga
+Enemy: piros
+Pálya vége: zöld
+
+Cél: kijutni a labirintusból (lvl 8 után).
+Van lehetőség végtelen módra is.
