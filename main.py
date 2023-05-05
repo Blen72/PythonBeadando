@@ -398,7 +398,7 @@ player = None  # Entity(PLAYER_IMG, 1, 1)
 mainmenuScreen = ScreenMainMenu()
 keybindsScreen = ScreenKeybinds()
 gameoverScreen = None
-currentScreen = ScreenGG()#mainmenuScreen
+currentScreen = mainmenuScreen
 currentScreen.init()
 
 spaced = False
